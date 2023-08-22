@@ -1,8 +1,13 @@
-
+import { Button } from "./components/Button/Button";
 
 export function App() {
 
   return (
-    <h1>Ignite Timer</h1>
+    <>
+      <Button variant="success" />
+      <Button variant="secundary" />
+      <Button variant="danger" />
+      <Button />
+    </>
   )
 }
